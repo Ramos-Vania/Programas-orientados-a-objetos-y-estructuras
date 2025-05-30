@@ -1,0 +1,9 @@
+Algoritmo SumaEstructurada
+    Definir a, b, resultado Como Real
+    Escribir "Ingrese el primer número:"
+    Leer a
+    Escribir "Ingrese el segundo número:"
+    Leer b
+    resultado <- a + b
+    Escribir "La suma es: ", resultado
+FinAlgoritmo 
