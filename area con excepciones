@@ -1,0 +1,16 @@
+class Triangulo:
+    def __init__(self, base, altura):
+        self.base = base
+        self.altura = altura
+
+    def calcular_area(self):
+        return (self.base * self.altura) / 2
+
+try:
+    b = float(input("Ingrese la base: "))
+    h = float(input("Ingrese la altura: "))
+    t = Triangulo(b, h)
+    area = t.calcular_area()
+    print("El área del triángulo es:", area)
+except Exception as e:
+    print("Error:", e)
