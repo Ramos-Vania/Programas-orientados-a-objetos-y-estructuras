@@ -1,0 +1,15 @@
+class Triangulo:
+    def __init__(self, base, altura):
+        self.base = base
+        self.altura = altura
+
+    def calcular_area(self):
+        return (self.base * self.altura) / 2
+
+def main():
+    t = Triangulo(8, 5)
+    area = t.calcular_area()
+    print("El área del triángulo es:", area)
+
+if __name__ == "__main__":
+    main()
